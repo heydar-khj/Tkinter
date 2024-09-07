@@ -1,2 +1,2 @@
 # Tkinter
-mini projects writen with tkinter module.
+Mini projects writen with tkinter module.
