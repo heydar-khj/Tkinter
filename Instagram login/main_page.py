@@ -47,7 +47,7 @@ def sign_up():
     index = len(content) + -1
     
     # Insert the text at the specified index
-    new_content = content[:index] + f" '{username}' : '{password}'," + content[index:]
+    new_content = content[:index] + f"'{username}' : '{password}'," + content[index:]
     
     # Write the modified content back to the file
     with open("data_base.py", 'w') as file:
