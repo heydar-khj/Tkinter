@@ -1,6 +1,5 @@
 from tkinter import *
 from tkinter import messagebox
-import time
 import data_base as db
 
 
@@ -106,15 +105,15 @@ lbl_seprte = Label(right_frm_in, text="------- OR -------", bg="white")
 lbl_seprte.grid(column=0, row=4, pady=10)
 
 # Add Facebook login option
-fb_login_btn = Button(right_frm_in, text="Log in with Facebook", fg="#385185", bg="white", borderwidth=0)
+fb_login_btn = Button(right_frm_in, text="Log in with Facebook", fg="gray", bg="white", borderwidth=0)
 fb_login_btn.grid(column=0, row=5, columnspan=2, pady=10)
 
 # Add forgot password link
-lbl_forgot = Label(right_frm_in, text="Forgot password?", fg="#385185", bg="white")
+lbl_forgot = Label(right_frm_in, text="Forgot password?", fg="gray", bg="white")
 lbl_forgot.grid(column=0, row=6, columnspan=2, pady=(10, 30))
 
 # Add a sign-up link
-lbl_signup = Button(right_frm_in, text="Don't have an account? Sign up", fg="gray", bg="white", borderwidth=0, command=open_sign_up)
+lbl_signup = Button(right_frm_in, text="Don't have an account? Sign up", fg="#385185", bg="white", borderwidth=0, command=open_sign_up)
 lbl_signup.grid(column=0, row=7, columnspan=2, pady=20)
 
 # ------------- sign up from ------------
